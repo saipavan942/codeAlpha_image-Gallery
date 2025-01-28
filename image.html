@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="ig.css" />
+  </head>
+  <body>
+    <div class="gallery-container">
+      <div class="gallery">
+        <img src="audi rs7.jpeg" alt="audi rs7" class="active" />
+        <img src="bentley continental gt.jpeg" alt="bentley continental gt" />
+        <img src="benz amg g63.jpeg" alt="benz amg g63" />
+        <img src="mercedes amg gt.jpeg" alt="mercedes amg gt" />
+        <img src="porsche 911.jpeg" alt="porsche 911" />
+      </div>
+      <button class="prev-btn">&#60;</button>
+      <button class="next-btn">&#62;</button>
+    </div>
+    <div class="thumbnails">
+      <img src="audi rs7.jpeg" alt="audi rs7" onclick="showImage(0)" />
+      <img src="bentley continental gt.jpeg" alt="bentley continental gt" onclick="showImage(1)" />
+      <img src="benz amg g63.jpeg" alt="benz amg g63" onclick="showImage(2)" />
+      <img src="mercedes amg gt.jpeg" alt="mercedes amg gt" onclick="showImage(3)" />
+      <img src="porsche 911.jpeg" alt="porsche 911" onclick="showImage(4)" />
+    </div>
+    <script src="ig.js"></script>
+  </body>
+</html>
